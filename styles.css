@@ -1,0 +1,365 @@
+:root {
+  /* цвет текста */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  /* цвет фона */
+  --primary-background: #e5e5e5;
+  --sekondary-background: #2f303a;
+  --additional-background: #f5f4fa;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+  font-family: Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* header */
+.header {
+  background: #ffffff;
+}
+.header-conteiner {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  padding: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 215px;
+  margin-right: auto;
+}
+
+.logo-conteiner {
+  width: 145px;
+}
+.nav-main {
+  display: flex;
+  margin-left: 93px;
+}
+
+.header-contacts {
+  display: flex;
+}
+.header-contacts-cont {
+  margin-left: auto;
+}
+
+/* Логотип */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #212121;
+}
+/* Навигация */
+.header ul {
+  list-style: none;
+}
+.header li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+
+.link-header + .link-header {
+  margin-left: 50px;
+}
+.link-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-contacts-li + .header-contacts-li {
+  margin-left: 50px;
+}
+.header-contacts-li {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.header-contacts {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contacts li a {
+  color: #757575;
+}
+
+.nav-main :hover {
+  color: #2196f3;
+}
+.header-contacts :hover {
+  color: #2196f3;
+}
+.nav-main :focus {
+  color: #2196f3;
+}
+.header-contacts :focus {
+  color: #2196f3;
+}
+.header .studio {
+  color: #2196f3;
+}
+
+/* Секция герой */
+.hero-section {
+  background: var(--sekondary-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero-text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
+  height: 120px;
+}
+.hero-button {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+
+  background: #2196f3;
+}
+
+.hero-button-tekst {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+}
+/* секция 2 */
+.section-description {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background: #ffffff;
+}
+.conteiner-description {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-description ul {
+  list-style: none;
+}
+
+.ul-section-description {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.section-description:nth-child(1) {
+  color: red;
+}
+
+.li-section-description {
+  width: 270px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.text-title-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+/* секция 3 */
+.our-work-section {
+  background: #ffffff;
+  padding-bottom: 94px;
+}
+.conteiner-our-work-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-work-section ul {
+  list-style: none;
+}
+.ul-our-work-section {
+  display: flex;
+}
+
+.li-our-work-section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* секция 4 */
+.section-command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.conteiner-section-command {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul-section-command {
+  display: flex;
+}
+
+.li-section-command {
+  width: 270px;
+  height: 368px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+  margin-top: 30px;
+  text-align: center;
+}
+.position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+  margin-top: 10px;
+  text-align: center;
+}
+.secondary-text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.section-command ul {
+  list-style: none;
+}
+.section-command {
+  background: var(--additional-background);
+}
+/* подвал */
+.footer {
+  background: var(--sekondary-background);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.conteiner-footer {
+  margin-left: 215px;
+  margin-right: auto;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  display: block;
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+}
+.logo-White {
+  color: #ffffff;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 9px;
+  display: inline;
+  margin-bottom: 9px;
+}
+.actual-address {
+  display: inline;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.contacts {
+  display: inline;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
