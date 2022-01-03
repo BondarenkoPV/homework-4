@@ -74,6 +74,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo-conteiner a {
   margin: 0px;
@@ -99,6 +100,7 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
@@ -205,6 +207,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 .maine-section-portfolio li {
@@ -252,6 +255,7 @@ img {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
   width: 322px;
 
@@ -266,6 +270,7 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
   color: #757575;
   width: 322px;
 
@@ -284,10 +289,7 @@ img {
   margin-right: auto;
   display: flex;
 }
-.adress-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -295,6 +297,7 @@ img {
   font-size: 26px;
   line-height: 31px;
   display: block;
+  letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
 .logo-White {
@@ -306,19 +309,29 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  margin-bottom: 9px;
+  letter-spacing: 0.03em;
+
   display: inline;
+}
+.adress-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .actual-address {
   display: inline;
   color: #ffffff;
-  margin-bottom: 9px;
 }
 .contacts {
   display: inline;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress {
+  margin-bottom: 9px;
+}
+.footer-mail {
+  margin-bottom: 9px;
 }
 
 .link-footer {
@@ -337,6 +350,7 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
 }

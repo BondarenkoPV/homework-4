@@ -78,6 +78,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo-conteiner a {
   margin: 0px;
@@ -103,6 +104,7 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
@@ -191,6 +193,7 @@ img {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
@@ -215,6 +218,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 /* секция 2 */
@@ -252,6 +256,7 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 10px;
 }
@@ -261,6 +266,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -323,6 +329,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #212121;
   margin-top: 30px;
   text-align: center;
@@ -333,6 +340,7 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
   text-align: center;
@@ -343,6 +351,7 @@ img {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -354,18 +363,74 @@ img {
 .section-command {
   background: var(--additional-background);
 }
+.ul-command-button {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.li-command-button {
+}
+.li-command-button + .li-command-button {
+  margin-left: 10px;
+}
+
+.command-buton {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 0px;
+  background: #f5f4fa;
+}
+
+.command-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
 /* секция 5 */
 
 .clients-ul {
   display: flex;
   list-style: none;
 }
+.regular-cliets > .conteiner-our-work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-li + .clients-li {
+  margin-left: 30px;
+}
 .clients-li {
   width: 170px;
   height: 92px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
-.clients-li + .clients-li {
-  margin-left: 30px;
+
+.svg-clients {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.svg-clients :hover {
+  fill: #2196f3;
+  border: solid #2196f3;
+  width: 170px;
+  height: 92px;
+}
+.svg-clients :focus {
+  fill: #2196f3;
+  border: solid #2196f3;
 }
 
 /* подвал */
@@ -389,6 +454,7 @@ img {
   font-size: 26px;
   line-height: 31px;
   display: block;
+  letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
 .logo-White {
@@ -401,6 +467,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 9px;
+  letter-spacing: 0.03em;
   display: inline;
 }
 
