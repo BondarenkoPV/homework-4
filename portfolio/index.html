@@ -34,15 +34,27 @@
 
             <div class="header-contacts-cont">
                 <ul class="header-contacts">
-                    <li class="header-contacts-li"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="header-contacts-li"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="header-contacts-li"> 
+                        <svg class="svg-mail">
+                            <use href="..//img/svg.svg#icon-mail"></use>
+                        </svg>
+                        <a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
+                    <li class="header-contacts-li">
+                        <svg class="svg-phone">
+                            <use href="..//img/svg.svg#icon-phone"></use>
+                        </svg>
+                        <a href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
+                
             </div>
+            
 
         </div>
+        
 
 
 </header>
+<!--Герой-->
     <main class="main">
         
         <Section class="maine-section-portfolio">
@@ -110,13 +122,43 @@
 <!--Подвал-->
 <footer class="footer">
     <div class="conteiner-footer">
+        <div class="adress-footer">
         <a href="http://127.0.0.1:5500/main.html" class="logo"><span class="logo-blue">Web</span><span
                 class="logo-White">Studio</span></a>
         <address class="address">
             <p class="actual-address">г. Киев, пр-т Леси Украинки, 26</p>
             <br><a href="mailto:info@example.com" class="contacts">info@example.com</a>
             <br><a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
-        </address>
+        </address></div>
+        <div class="link-footer">
+        <h3 class="heading-footer">ПРИСОЕДИНЯЙТЕСЬ</h3>
+        <ul class="footer-ul">
+            <li class="footer-li">
+                <button class="footer-buton">
+                <svg class="footer-svg"><use href="..//img/svg.svg#icon-instagram"></use></svg>
+            </button>
+           </li>
+            <li class="footer-li">
+                <button class="footer-buton">
+
+                <svg class="footer-svg">
+                    <use href="..//img/svg.svg#icon-twitter"></use>
+                </svg></button>
+            </li>
+            <li class="footer-li">
+                <button class="footer-buton">
+                <svg class="footer-svg">
+                    <use href="..//img/svg.svg#icon-facebook"></use>
+                </svg></button>
+            </li>
+            <li class="footer-li">
+                <button class="footer-buton">
+                <svg class="footer-svg">
+                    <use href="..//img/svg.svg#icon-linkedin"></use>
+                </svg></button>
+            </li>
+        </ul>
+        </div>
     </div>
 </footer>
 </body>

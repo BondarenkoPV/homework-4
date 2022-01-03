@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--primary-background);
+  background: #ffffff;
   font-family: Roboto;
 }
 h1,
@@ -23,8 +23,15 @@ h3,
 h4,
 h5,
 h6,
+ul,
+ol,
+li,
 p {
   margin: 0;
+}
+ul[class],
+ol[class] {
+  padding: 0;
 }
 
 img {
@@ -40,19 +47,16 @@ img {
   display: flex;
   align-items: center;
   width: 1200px;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 215px;
+  margin-left: auto;
   margin-right: auto;
 }
 
-.logo-conteiner {
-  width: 145px;
-}
 .nav-main {
   display: flex;
-  margin-left: 93px;
 }
 
 .header-contacts {
@@ -70,8 +74,13 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-top: 24px;
-  margin-bottom: 25px;
+}
+.logo-conteiner a {
+  margin: 0px;
+}
+.header-conteiner .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-blue {
   color: #2196f3;
@@ -97,25 +106,46 @@ img {
   margin-left: 50px;
 }
 .link-header {
+  margin-left: 93px;
+}
+.link-header a {
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .header-contacts-li + .header-contacts-li {
   margin-left: 50px;
 }
-.header-contacts-li {
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
 
 .header-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.svg-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.svg-mail :hover {
+  fill: #2196f3;
+}
+.svg-mail :focus {
+  fill: #2196f3;
+}
+.svg-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.svg-phone :hover {
+  fill: #2196f3;
+}
+
+.svg-phone :focus {
+  fill: #2196f3;
 }
 
 .header-contacts li a {
@@ -142,9 +172,12 @@ img {
 .main {
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid #ececec;
 }
 .main-conteiner {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,18 +185,18 @@ img {
 /* кнопки */
 .list-of-buttons {
   display: flex;
-
-  margin-bottom: 50px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button-li + .button-li {
   margin-left: 8px;
 }
-.button-li {
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
+.button-li button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .list-of-buttons li button {
@@ -193,8 +226,6 @@ img {
 .maine-portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px;
-  padding: 0px;
   margin-bottom: -30px;
   margin-right: -30px;
 }
@@ -208,16 +239,11 @@ img {
 .li-maine-portfolio {
   display: block;
   width: 370px;
-  padding: 0px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc(100% / 3 - 30px);
-}
-.li-maine-portfolio {
-  margin-top: 0px;
-  margin-left: 0px;
+  /* flex-basis: calc(100% / 3 - 30px); */
 }
 
 .title-text-portfolio {
@@ -251,13 +277,16 @@ img {
 /* подвал */
 .footer {
   background: var(--sekondary-background);
-
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .conteiner-footer {
-  margin-left: 215px;
+  width: 1200px;
+  margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+.adress-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo {
   font-family: Raleway;
@@ -266,8 +295,6 @@ img {
   font-size: 26px;
   line-height: 31px;
   display: block;
-  width: 145px;
-  height: 31px;
   margin-bottom: 20px;
 }
 .logo-White {
@@ -281,8 +308,8 @@ img {
   line-height: 1.71;
   margin-bottom: 9px;
   display: inline;
-  margin-bottom: 9px;
 }
+
 .actual-address {
   display: inline;
   color: #ffffff;
@@ -292,4 +319,47 @@ img {
   display: inline;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.link-footer {
+  margin-left: 70px;
+  padding-top: 70px;
+  padding-bottom: 97px;
+}
+
+.footer-ul {
+  display: flex;
+  list-style: none;
+}
+.heading-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-buton {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-li :hover {
+  background: #2196f3;
+}
+.footer-li:focus {
+  background: #2196f3;
+}
+.footer-li + .footer-li {
+  margin-left: 10px;
+}
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
