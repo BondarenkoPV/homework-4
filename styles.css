@@ -119,61 +119,58 @@ img {
   padding-bottom: 32px;
 }
 
-.header-contacts-li + .header-contacts-li {
-  margin-left: 50px;
-}
-.header-contacts-li {
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
+
 
 .header-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.svg-mail {
+
+.header-contacts-li +.header-contacts-li {
+  margin-left: 50px;
+}
+
+.header-contacts.header-contacts-li a:hover,.svg-phone :hover{
+  color:#2196f3; 
+  }
+ 
+
+
+  .svg-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: #757575;
 }
-.svg-mail :hover {
-  fill: #2196f3;
-}
-.svg-mail :focus {
-  fill: #2196f3;
-}
+
+
 .svg-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: #757575;
 }
-.svg-phone :hover {
-  fill: #2196f3;
-}
 
-.svg-phone :focus {
-  fill: #2196f3;
-}
 
-.header-contacts li a {
+.header-contacts li a  { 
   color: #757575;
 }
+
+
+
 
 .nav-main :hover {
   color: #2196f3;
 }
-.header-contacts :hover {
-  color: #2196f3;
-}
+/* .header-contacts :hover {
+  color: #2196f3;} */
+
 .nav-main :focus {
   color: #2196f3;
 }
-.header-contacts :focus {
-  color: #2196f3;
-}
+/* .header-contacts :focus {
+  color: #2196f3;} */
+
 .header .studio {
   color: #2196f3;
 }
@@ -298,6 +295,8 @@ img {
 }
 .conteiner-our-work-section {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -391,12 +390,18 @@ img {
   margin-top: 16px;
 }
 
-.li-command-button :hover {
+.command-buton:hover {
   background: #2196f3;
 }
-.command-svg :hover {
+.command-buton:focus{ background: #2196f3;}
+
+.command-svg :hover{
   fill: #fff;
 }
+.command-buton.command-svg:focus{
+  fill: #fff;
+}
+
 
 .li-command-button + .li-command-button {
   margin-left: 10px;
@@ -405,10 +410,12 @@ img {
 .command-buton {
   width: 44px;
   height: 44px;
+ 
   padding: 12px;
   border-radius: 50%;
   border: 0px;
   background: #f5f4fa;
+  box-sizing: border-box;
 }
 
 .command-svg {
@@ -539,7 +546,7 @@ img {
 .footer-li :hover {
   background: #2196f3;
 }
-.footer-li:focus {
+.footer-li :focus {
   background: #2196f3;
 }
 .footer-li + .footer-li {
