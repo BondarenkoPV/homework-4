@@ -377,7 +377,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 .footer-li :hover {
   background: #2196f3;
 }
-.footer-li:focus {
+.footer-li :focus {
   background: #2196f3;
 }
 .footer-li + .footer-li {
