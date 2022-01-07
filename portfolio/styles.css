@@ -76,9 +76,7 @@ img {
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-.logo-conteiner a {
-  margin: 0px;
-}
+
 .header-conteiner .logo {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -115,32 +113,38 @@ img {
   padding-bottom: 32px;
 }
 
+.header-contacts {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header-contacts-li + .header-contacts-li {
   margin-left: 50px;
 }
 
-.header-contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
+.header-contacts :hover {
+  color: #2196f3;
+}
+.header-contacts :focus {
+  color: #2196f3;
 }
 
 .svg-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
 }
-.svg-mail :hover {
-  fill: #2196f3;
-}
-.svg-mail :focus {
-  fill: #2196f3;
-}
+
 .svg-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
+}
+
+.header-contacts li a {
+  color: #757575;
 }
 .svg-phone :hover {
   fill: #2196f3;
@@ -150,22 +154,14 @@ img {
   fill: #2196f3;
 }
 
-.header-contacts li a {
-  color: #757575;
-}
-
 .nav-main :hover {
   color: #2196f3;
 }
-.header-contacts :hover {
-  color: #2196f3;
-}
+
 .nav-main :focus {
   color: #2196f3;
 }
-.header-contacts :focus {
-  color: #2196f3;
-}
+
 .header .portfolio {
   color: #2196f3;
 }
@@ -220,11 +216,14 @@ img {
   background: #2196f3;
 }
 
-.list-of-buttons .button-li :hover{
+.list-of-buttons .button-li :hover {
   color: #ffffff;
 }
-.list-of-buttons .button-li :focus{
+.list-of-buttons .button-li :focus {
   color: #ffffff;
+}
+.portfolio {
+  color: #2196f3;
 }
 
 /* сетка */
@@ -250,17 +249,15 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3 - 30px);
- 
 }
-.maine-portfolio>li:hover{
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-1px 4px 6px rgba(0, 0, 0, 0.16);}
+.maine-portfolio > li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
-.maine-portfolio>li:focus{
-  
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);
-  
+.maine-portfolio > li:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .title-text-portfolio {
@@ -300,8 +297,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   margin-right: auto;
   display: flex;
 }
-
-.logo {
+.adress-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-footer {
+  text-decoration: none;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -320,29 +321,21 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
   letter-spacing: 0.03em;
-
   display: inline;
-}
-.adress-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .actual-address {
   display: inline;
   color: #ffffff;
+
+  margin-bottom: 9px;
 }
 .contacts {
   display: inline;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-adress {
-  margin-bottom: 9px;
-}
-.footer-mail {
-  margin-bottom: 9px;
 }
 
 .link-footer {
@@ -361,18 +354,26 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
-.footer-buton {
+.footer-li a {
   width: 44px;
   height: 44px;
-  padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   border-radius: 50%;
   border: 0px;
   background: rgba(255, 255, 255, 0.1);
+}
+.footer-adress {
+  margin-bottom: 9px;
+}
+.footer-mail {
+  margin-bottom: 9px;
 }
 .footer-li :hover {
   background: #2196f3;
