@@ -407,7 +407,7 @@ img {
   background: #2196f3;
 }
 .command-svg:hover {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 .command-svg {
@@ -448,14 +448,14 @@ img {
   fill: #afb1b8;
 }
 
-.clients-li:hover {
+.clients-li a:hover {
   border: solid #2196f3;
 }
 .svg-clients :hover {
   fill: currentColor;
 }
 
-.clients-li :focus {
+.clients-li a:focus {
   border: solid #2196f3;
 }
 .svg-clients :focus {
@@ -534,6 +534,7 @@ img {
 }
 
 .footer-li a {
+  display: block;
   width: 44px;
   height: 44px;
   padding-top: 12px;
